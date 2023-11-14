@@ -9,6 +9,8 @@ const client = new Client({
   ]
 });
 
+// i want to die.
+
 const config = require("./src/config.js");
 const { readdirSync } = require("fs")
 
