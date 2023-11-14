@@ -68,11 +68,17 @@ client.on("messageCreate", function(message) {
     const randomResponse = responses[Math.floor(Math.random() * responses.length)];
     message.reply(randomResponse);
   }
-  if (message.content.startsWith('!bitches')) {
+  if (message.content ==='!bitches') {
     const responses = ['lmao bitchless noob', 'no bitches?', 'https://cdn.discordapp.com/attachments/1102810909346381947/1174114316195213312/megamind-no-bitches-meme-3264x3264-v0-gb5bw6safuu81.png', 'https://cdn.discordapp.com/attachments/1102810909346381947/1174114332305526914/no-bitches-v0-fc641jeg4ej81.png']
     const randomResponse = responses[Math.floor(Math.random() * responses.length)];
     
     message.reply(randomResponse);
+  }
+  if (message.content === "xmas") {
+    message.reply("Hashire sori yo~ kaze no you ni~ tsukimihara yo~ padoru padoruu~");
+  }
+  if (message.content === "christmas") {
+    message.reply("Hashire sori yo~ kaze no you ni~ tsukimihara yo~ padoru padoruu~");
   }
 });
 
