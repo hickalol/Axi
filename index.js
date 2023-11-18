@@ -80,6 +80,9 @@ client.on("messageCreate", function(message) {
   if (message.content === "christmas") {
     message.reply("Hashire sori yo~ kaze no you ni~ tsukimihara yo~ padoru padoruu~");
   }
+  if (message.content === 'what do you do') {
+    message.channel.send('sit in cold silence all day');
+  }
 });
 
 client.login(token)
